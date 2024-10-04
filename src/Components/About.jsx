@@ -1,6 +1,6 @@
 import React from "react";
 import { ABOUT_CONTENT } from "../constants";
-import protofilopic from "../assets/kevinRushProfile.png";
+import protofilopic from "../assets/Portfolio_photo.jpg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -44,9 +44,10 @@ const About = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8 ">
-          <div className="flex justify-center">
+        <div className="w-full lg:w-1/2 lg:p-8  ">
+          <div className="flex justify-center rounded-2xl">
             <motion.img
+              className="rounded-2xl h-148 w-96"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
