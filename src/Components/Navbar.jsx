@@ -15,8 +15,12 @@ const Navbar = () => {
           alt="viveklogo"
         ></img>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl font-semibold">
-        <p>About Technologies Expirence Projects Contact </p>
+      <div className="m-8 flex items-center justify-center gap-6 text-xl font-semibold cursor-pointer">
+        <p>About</p>
+        <p>Technologies</p>
+        <p>Expirence</p>
+        <p>Projects</p>
+        <p>Contact</p>
       </div>
     </nav>
   );
