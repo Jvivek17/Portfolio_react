@@ -10,7 +10,7 @@ import Contact from "./Components/Contact";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
-      <header className="fixed top-0 left-0 w-full z-50 bg-neutral-950 shadow-lg">
+      <header className=" fixed top-0 left-0 w-full z-50 bg-neutral-950 shadow-lg h-40">
         <div className="container mx-auto px-8">
           <Navbar />
         </div>
@@ -26,13 +26,25 @@ const App = () => {
         <div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
       </div> */}
 
-      <div className="container mx-auto px-8 pt-32 md:pt-40 lg:pt-48">
-        <About />
-        <AboutMe />
-        <Technologies />
-        <Expirence />
-        <Projects />
-        <Contact />
+      <div className="container mx-auto px-8 pt-20 md:pt-28 lg:pt-36">
+        <section>
+          <About />
+        </section>
+        <section id="about-me-section">
+          <AboutMe />
+        </section>
+        <section id="technologies-section">
+          <Technologies />
+        </section>
+        <section id="experience">
+          <Expirence />
+        </section>
+        <section id="projects-section">
+          <Projects />
+        </section>
+        <section id="contact-section">
+          <Contact />
+        </section>
       </div>
     </div>
   );
