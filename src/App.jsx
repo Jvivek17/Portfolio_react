@@ -10,7 +10,7 @@ import Contact from "./Components/Contact";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
-      <header className=" fixed top-0 left-0 w-full z-50 bg-neutral-950 shadow-lg h-40">
+      <header className=" top-0 left-0 w-full z-50 bg-neutral-950 shadow-lg h-40">
         <div className="container mx-auto px-8">
           <Navbar />
         </div>
